@@ -1,0 +1,112 @@
+[FATAL][TaskScheduler.UnobservedTaskException] UHANDLED EXCEPTION
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. ---> System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.CheckUpdate.Run[T](String url) in D:\Projects\Desktop\SilverBullet\OpenBullet\CheckUpdate.cs:line 17
+   at OpenBullet.MainWindow.<.ctor>b__54_0() in D:\Projects\Desktop\SilverBullet\OpenBullet\MainWindow.xaml.cs:line 82
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.CheckUpdate.Run[T](String url) in D:\Projects\Desktop\SilverBullet\OpenBullet\CheckUpdate.cs:line 17
+   at OpenBullet.MainWindow.<.ctor>b__54_0() in D:\Projects\Desktop\SilverBullet\OpenBullet\MainWindow.xaml.cs:line 82
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+[FATAL][TaskScheduler.UnobservedTaskException] UHANDLED EXCEPTION
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. ---> System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.Views.Main.RunnerManager.<>c__DisplayClass10_0.<.ctor>b__1() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\RunnerManager.xaml.cs:line 57
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.Views.Main.RunnerManager.<>c__DisplayClass10_0.<.ctor>b__1() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\RunnerManager.xaml.cs:line 57
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+[FATAL][TaskScheduler.UnobservedTaskException] UHANDLED EXCEPTION
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. ---> System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.Views.Main.RunnerManager.<>c__DisplayClass10_0.<.ctor>b__1() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\RunnerManager.xaml.cs:line 57
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.Views.Main.RunnerManager.<>c__DisplayClass10_0.<.ctor>b__1() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\RunnerManager.xaml.cs:line 57
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+[FATAL][TaskScheduler.UnobservedTaskException] UHANDLED EXCEPTION
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. ---> System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.Views.Main.RunnerManager.<>c__DisplayClass10_0.<.ctor>b__1() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\RunnerManager.xaml.cs:line 57
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.Views.Main.RunnerManager.<>c__DisplayClass10_0.<.ctor>b__1() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\RunnerManager.xaml.cs:line 57
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+[FATAL][TaskScheduler.UnobservedTaskException] UHANDLED EXCEPTION
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at OpenBullet.Views.Main.Supporters.<Page_Loaded>b__3_4() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\Supporters.xaml.cs:line 66
+   at System.Windows.Threading.DispatcherOperation.InvokeDelegateCore()
+   at System.Windows.Threading.DispatcherOperation.InvokeImpl()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   at OpenBullet.Views.Main.Supporters.<>c__DisplayClass3_0.<Page_Loaded>b__1(Task _) in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\Supporters.xaml.cs:line 64
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at OpenBullet.Views.Main.Supporters.<Page_Loaded>b__3_4() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\Supporters.xaml.cs:line 66
+   at System.Windows.Threading.DispatcherOperation.InvokeDelegateCore()
+   at System.Windows.Threading.DispatcherOperation.InvokeImpl()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   at OpenBullet.Views.Main.Supporters.<>c__DisplayClass3_0.<Page_Loaded>b__1(Task _) in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\Supporters.xaml.cs:line 64
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+[FATAL][TaskScheduler.UnobservedTaskException] UHANDLED EXCEPTION
+System.AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. ---> System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.Views.Main.Supporters.<>c__DisplayClass3_0.<Page_Loaded>b__0() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\Supporters.xaml.cs:line 43
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at OpenBullet.Views.Main.Supporters.<>c__DisplayClass3_0.<Page_Loaded>b__0() in D:\Projects\Desktop\SilverBullet\OpenBullet\Views\Main\Supporters.xaml.cs:line 43
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
